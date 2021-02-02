@@ -1,0 +1,24 @@
+header {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-rows: 2fr;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header > img {
+  width: 200px;
+}
+
+main > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  flex: 250px;
+}
+li > img {
+  max-width: 250px;
+}
